@@ -1,0 +1,51 @@
+/* Lab 4: Array Transformation Pipelines & Aggregation */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    margin: 2rem auto;
+    max-width: 720px;
+    padding: 0 1rem;
+    color: #1f2933;
+    background: #f5f7fa;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+p.subtitle {
+    color: #52606d;
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+
+button {
+    font: inherit;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+    margin: 0.5rem 0 1rem;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#output {
+    background: #111827;
+    color: #d1d5db;
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: 'Consolas', 'Menlo', monospace;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+#output div:first-child::before {
+    content: '';
+}

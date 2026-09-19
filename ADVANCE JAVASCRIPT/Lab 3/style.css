@@ -1,0 +1,39 @@
+/* Lab 3: Destructuring, Rest/Spread & Immutable Updates */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    margin: 2rem auto;
+    max-width: 720px;
+    padding: 0 1rem;
+    color: #1f2933;
+    background: #f5f7fa;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    font: inherit;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+pre {
+    background: #111827;
+    color: #d1d5db;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
